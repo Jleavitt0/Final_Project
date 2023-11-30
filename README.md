@@ -35,3 +35,8 @@ A machine learning model is built using TensorFlow, and its performance is evalu
 The analysis is complemented by interactive visualizations created in Tableau. These visualizations provide a more comprehensive and user-friendly view of the patterns and insights uncovered during the analysis.
 
 https://public.tableau.com/app/profile/leo.antinozzi/viz/Project4workbook_17011366201590/Sheet4?publish=yes
+
+## Analysis Results
+While the purpose of this was to demonstrate how a model can be built using the data, it is noted that the insights for this data are specific to this set. The other purpose was to demonstrate the proverbial "gut check" on the data, that preliminary viewing of the data can help determine if/how the data set may be useful. 
+
+Ultimately this machine learning model determined that for the loans within this dataset the top 5 most important factors when it came to predicting a defaulting loan would be Age, interest rate, income, months employed, and loan amount, in that order. Our graphs were more limited in their effectiveness, simply because they were hampered by how consistent this dataset was in its distrubion. Many of the high-level summary statistics we acquired via Pandas and PySpark indicated that this may also have been an intention for this dataset: That machine learning models are adept at isolating specific factors that otherwise would be difficult to determine or isolate. 
